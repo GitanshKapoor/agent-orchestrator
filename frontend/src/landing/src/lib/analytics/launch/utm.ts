@@ -89,8 +89,6 @@ function inbound(source: LaunchSourceName, medium: string): string {
 /**
  * One row per channel. `link` is the tagged URL you paste on that channel;
  * `profileUrl` is where it goes. Product Hunt is the launch's primary source.
- * Instagram has no account yet, so it is a clearly-marked placeholder to fill
- * in once the handle exists (kept in the registry so the structure is ready).
  */
 export const LAUNCH_CHANNELS: LaunchChannel[] = [
 	{
