@@ -137,7 +137,7 @@ export const LAUNCH_CHANNELS: LaunchChannel[] = [
 		source: "instagram",
 		label: "Instagram",
 		medium: "social",
-		profileUrl: "https://www.instagram.com/aoagents",
+		profileUrl: COMPANY.INSTAGRAM_URL,
 		link: inbound("instagram", "social"),
 	},
 ];
